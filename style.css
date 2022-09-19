@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.container {
+    background-color: #395B64;
+    width: 100%;
+}
+
+/* nav */
+.nav {
+    display: inline-block;
+    position: absolute;
+    right: 40%;
+    top: 30px;
+    
+}
+
+.nav-row a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 46%;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.login {
+    position: absolute;
+    right: 200px;
+    top: 15px;
+    border: 5px solid red;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.login-form  {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.signup {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    border: 5px solid red;
+    padding: 10px 30px;
+    background-color: red;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.signup-form {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* profile */
+#profile {
+    background-color: #2f464d;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-profile {
+    padding: 50px;
+    width: 40%;
+    margin-left: 10px;
+}
+
+.introduction h1 {
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 70px;
+    line-height: 5rem;
+    color: white;
+    
+}
+
+@media (max-width: 878px) {
+    .introduction h1 {
+        font-size: 60px;
+    }
+}
+
+.introduction p {
+    position: relative;
+    top: 0px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+}
+
+.photo img {
+    width: 300px;
+    position: absolute;
+    right: 130px;
+    top: 140px;
+    box-shadow: 5px 10px 10px 3px lightblue ;
+}
+
+.input-profile {
+    position: relative;
+    top: 40px;
+    width: 100%;
+}
+
+
+
+.input-form {
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: white;
+    width: 70%;
+    color: black;
+}
+
+/* about */
+#about {
+    background-color: #395B64;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 10px auto;
+}
+
+.container-about {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo-profile {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.photo-profile img {
+    width: 200px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 40px #1d272b;
+}
+.photo-profile:hover  {
+    opacity: 75%;
+}
+.about-profile {
+    padding-top: 50px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+.about-profile p {
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    border: 3px solid #6b95a1;
+    background-color: #6b95a1;
+    padding: 10px 25px;
+    border-radius: 13px;
+}
+
+/* contact */
+#contact {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container-contact {
+    background-color: #2f464d;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.label-contact {
+    padding-top: 2rem;
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.label-contact h1 {
+    font-size: 60px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.label-contact p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1rem;
+    letter-spacing: 3px;
+    line-height: 1.6rem;
+    
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.form-email {
+    position: absolute;
+    left: 25%;
+}
+
+.form-password {
+    position: absolute;
+    left: 25%;
+    bottom: 35%;
+}
+
+.label-email {
+    padding-right: 66px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-input {
+    padding: 20px 10px;
+    width: 350px;
+}
+
+
+.password-input {
+    padding: 20px 10px;
+    width: 350px;
+}
+.label-password {
+    padding-right: 27px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-text {
+    position: absolute;
+    left: 25%;
+    bottom: 5.5%;
+}
+
+.pesan {
+    padding-right: 3.6rem;
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 8rem;
+}
+
+.text-area {
+    padding: 20px 10px;
+    width: 350px;  
+}
